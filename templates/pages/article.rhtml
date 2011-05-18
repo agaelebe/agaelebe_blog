@@ -1,11 +1,13 @@
 <article class="post">
   <header>
     <h1><%= title %></h1>
-    <span class="date"><%= date %></span>
+    <span class="date"><%= date %></span><br/>
+		<span class="tags"><%= Karakuri::tag_link_list(article[:tags])  %></span>
   </header>
 
   <section class="content">
     <%= body %>
+    Enjoyed the reading? Feel free to share the post via&nbsp;<a target="_blank" href="http://twitter.com/home?status=<%= CGI::escape(title.to_s + " | yourSitesTitle.com") %>+<%= Karakuri::short_url_bitly(permalink, 'bit.ly_login_name', 'bit.ly_api_key') %>" alt="tweet this">twitter</a>
   </section>
 
   <section class="comments">

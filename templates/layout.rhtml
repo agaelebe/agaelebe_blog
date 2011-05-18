@@ -1,18 +1,22 @@
 <!doctype html>
 <html>
   <head>
+		<% page_title = Karakuri::seo_friendly_title(@path, title, 'yourSitesTitle.com') %>
+		<title><%=  page_title %></title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
+    <link rel="alternate" type="application/atom+xml" title="<%= page_title %> - feed" href="/index.xml" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-    <title><%= title %></title>
   </head>
   <body>
     <section>
       <%= yield %> 
     </section>
     <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
+      powered by <a href="http://cloudhead.io/toto">toto</a> and <a href="http://github.com/5v3n/karakuri">karakuri</a>
     </footer>
+		<% if @config[:disqus] %>
+		<%= Karakuri::disqus_comment_count_js(@config[:disqus]) %>
+		<% end %>
   </body>
 </html>
 
