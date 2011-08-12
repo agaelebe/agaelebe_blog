@@ -4,15 +4,39 @@
 		<% page_title = Karakuri::seo_friendly_title(@path, title, 'yourSitesTitle.com') %>
 		<title><%=  page_title %></title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
     <link rel="alternate" type="application/atom+xml" title="<%= page_title %> - feed" href="/index.xml" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
   </head>
   <body>
+    <header>
+      <a href="/" id="logo" title="agaelebe blog - página inicial">
+        <img src="/images/agaelebe_blog_logo.png" alt="agaelebe blog - master of n00bs" />
+      </a>
+    </header>
     <section>
       <%= yield %> 
     </section>
     <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a> and <a href="http://github.com/5v3n/karakuri">karakuri</a>
+      <div class="footer_container clearfix">
+        <ul>
+          <li><strong>Conteúdos</strong></li>
+          <li><a href="http://github.com/agaelebe" alt="Meus repositórios no Github">Meu Github</li>
+          <li><a href="http://agaelebe.blit.tv" alt="Vídeos de eventos filmados por mim">Vídeos no blip.tv</li>
+        </ul>
+        <ul>
+          <li><strong>Onde me encontrar</strong></li>
+          <li><a href="http://about.me/hugoborges" alt="Um pouco sobre mim e como entrar em contato">Sobre</li>
+          <li><a href="http://twitter.com/agaelebe" alt="Minha conta no Twitter">Twitter</a></li>
+          <li><a href="http://meadiciona.com/agaelebe" alt="Meus contatos em outras redes sociais">Me adiciona</a></li>
+        </ul>
+        <ul>
+          <li><strong>Participo</strong></li>
+          <li><a href="http://guru-sp.org" alt="Grupo de Usuários Ruby de SP">Guru-SP</li>
+          <li><a href="http://garoa.net.br" alt="Garoa Hacker Clube">Garoa Hacker Clube</li>
+        </ul>       
+      </div>
+      <div class="clearfix">Hugo L. Borges | <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Alguns direitos reservados</a> | Powered by <a href="http://cloudhead.io/toto">toto</a> e <a href="http://github.com/5v3n/karakuri">karakuri</a></div>
     </footer>
 		<% if @config[:disqus] %>
 		<%= Karakuri::disqus_comment_count_js(@config[:disqus]) %>

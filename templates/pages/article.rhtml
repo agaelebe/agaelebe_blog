@@ -2,20 +2,19 @@
   <header>
     <h1><%= title %></h1>
     <span class="date"><%= date %></span><br/>
-		<span class="tags"><%= Karakuri::tag_link_list(article[:tags])  %></span>
   </header>
-
   <section class="content">
     <%= body %>
-    Enjoyed the reading? Feel free to share the post via&nbsp;<a target="_blank" href="http://twitter.com/home?status=<%= CGI::escape(title.to_s + " | yourSitesTitle.com") %>+<%= Karakuri::short_url_bitly(permalink, 'bit.ly_login_name', 'bit.ly_api_key') %>" alt="tweet this">twitter</a>
-  </section>
-
+    <span class="twitter">Compartilhe esse artigo pelo &nbsp;<a target="_blank" href="http://twitter.com/home?status=<%= CGI::escape(title.to_s + " | agaelebe.com") %>+<%= Karakuri::short_url_bitly(permalink, 'agaelebe', 'R_7cc255c2f0c71857fef67d245368daa4') %>" alt="tweet isso">twitter</a></span>
+    <span class="tags">Tags: <%= Karakuri::tag_link_list(article[:tags])  %></span>  
+</section>
+  
   <section class="comments">
     <% if @config[:disqus] %>
       <div id="disqus_thread"></div>
       <script type="text/javascript" src="http://disqus.com/forums/<%= @config[:disqus] %>/embed.js"> </script>
-      <noscript><a href="http://<%= @config[:disqus] %>.disqus.com/?url=ref">View the discussion thread.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+      <noscript><a href="http://<%= @config[:disqus] %>.disqus.com/?url=ref">Veja a thread de discussão.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">Comentários providos por <span class="logo-disqus">Disqus</span></a>
     <% end %>
   </section>
 </article>
