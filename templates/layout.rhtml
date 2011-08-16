@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
   <head>
-		<% page_title = Karakuri::seo_friendly_title(@path, title, 'yourSitesTitle.com') %>
-		<title><%=  page_title %></title>
+    <% page_title = Karakuri::seo_friendly_title(@path, title, 'agaelebe.com') %>
+    <title><%=  page_title %></title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/syntax.css">
     <link rel="alternate" type="application/atom+xml" title="<%= page_title %> - feed" href="/index.xml" />
@@ -34,13 +34,13 @@
           <li><strong>Participo</strong></li>
           <li><a href="http://guru-sp.org" alt="Grupo de Usuários Ruby de SP">Guru-SP</li>
           <li><a href="http://garoa.net.br" alt="Garoa Hacker Clube">Garoa Hacker Clube</li>
-        </ul>       
+        </ul>
       </div>
       <div class="clearfix">Hugo L. Borges | <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Alguns direitos reservados</a> | Powered by <a href="http://cloudhead.io/toto">toto</a> e <a href="http://github.com/5v3n/karakuri">karakuri</a></div>
     </footer>
-		<% if @config[:disqus] %>
-		<%= Karakuri::disqus_comment_count_js(@config[:disqus]) %>
-		<% end %>
+    <% if @config[:disqus] %>
+    <%= Karakuri::disqus_comment_count_js(@config[:disqus]) %>
+    <% end %>
   </body>
 </html>
 
