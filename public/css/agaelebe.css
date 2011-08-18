@@ -8,7 +8,7 @@ body {
   font-size: 95%;
   line-height: 30px;
   min-width: 720px;
-  background:url(/images/agaelebe_background.png) repeat top;
+  background:#f0f0d8 url(/images/agaelebe_backgrounsd.gif) repeat top;
   color: #333;
 }
 header, footer, section, article {
@@ -19,17 +19,17 @@ section, #content {
   margin: 0 auto;
 }
 #by {
-	font-style: italic;
+  font-style: italic;
   margin-right: 5px;
-	font-size: ;
+  font-size: ;
 }
 #caption {
-	position: absolute;
-	font-size: 140%;
-	margin: -135px 0 0 70px;
+  position: absolute;
+  font-size: 140%;
+  margin: -135px 0 0 70px;
 }
 #path {
-	color: #b53131;
+  color: #b53131;
 }
 .date {
   font-style: italic;
@@ -57,7 +57,6 @@ h1 a:hover {
   border-bottom-style: dotted;
   border-bottom-width: 1px;
 }
-
 
 h1 {
   color: #f84600;
@@ -90,13 +89,13 @@ body > header > h1 {
 	margin-bottom: 10px;
 }
 .post .body p:first-child {
-	margin-top: 0;
+  margin-top: 0;
 }
 .post .body p:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 .post {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .post:last-child {
   margin-bottom: 10px;
@@ -116,11 +115,11 @@ body > header > h1 {
 .more a:hover { text-decoration: underline }
 body > header {
   width: 100%;
-	display: block;
+  display: block;
   text-align: center;
   float: right;
-	padding-top: 0px;
-	margin-bottom: 10px;
+  padding-top: 0px;
+  margin-bottom: 10px;
 
 }
 h1, h2, h3, h4 {
@@ -153,7 +152,7 @@ body > footer {
   text-align: center;
   margin: 15px auto;
   padding: 10px 0;
-	font-style: italic;
+  font-style: italic;
   font-size: 16px;
   color: white;
   background: #7a8370;
@@ -188,7 +187,7 @@ footer a:hover {
 .footer_container ul{
   list-style-type: none;
   float: left;
-  width: 200px;
+  width: 230px;
   margin: 0;
   padding: 5px;
   margin-left: 0;
