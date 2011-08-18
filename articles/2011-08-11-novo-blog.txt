@@ -1,20 +1,17 @@
 title: Novo blog
 author: Hugo Lima Borges
-date: 2011/08/11
+date: 2011/08/18
 tags: blog
 
-Esse é meu novo blog. Sempre com um novo blog vem a esperança de mais artigos e melhor conteúdo. Espero realmente que isso acontece.
+Esse é meu novo blog. Sempre com um novo blog vem a esperança de mais artigos e melhor conteúdo. Espero realmente que isso aconteça.
 Meu antigo blog utilizava a engine __Mephisto__. Por vezes pensei em atualizar para uma outra engine ou migrar para o __Wordpress__.
-No final acabei optando pela engine Toto. Não tem porque complicar. Nada melhor que escrever os posts em txt.
+No final acabei optando pela engine Toto. Não tem porque complicar. Nada melhor que escrever os posts em texto e publicar usando o git.
 
-Nada melhor que editar o HTML direto. O meu mephisto funcionava bem, mas qualquer atualização que precisei fazer nele (em relação a layout, suporte a code coloring, entre outros) me deram mais trabalho do que o necessário. Ele também dependia de um número grande de gems e usava uma versão desatualizada do Rails.
+O meu Mephisto funcionava razoavelmente bem, mas qualquer atualização que precisei fazer nele (em relação a layout, suporte a code coloring, entre outros) me deram mais trabalho do que o necessário. Ele também dependia de um número grande de gems e usava uma versão bastante desatualizada do Rails.
 
     :::ruby
-    # it's 4 spaces indentation, don't forget that
-    def test
-      puts "test !" if super(nil)
-    end
+      puts "Hello world!"
 
 
-Agora só fica a dúvida se irei migrar os posts antigos. Não tem muita coisa mas pode ser que valha o trabalho.
+Agora só fica a dúvida se irei migrar os posts antigos. Não tem muita coisa por isso talvez não valha o trabalho.
 
