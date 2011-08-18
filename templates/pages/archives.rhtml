@@ -1,8 +1,9 @@
-<h1><%= @path %></h1>
+<h1>Arquivos</h1>
 <ul>
   <% if archives.length > 0 %>
     <% for entry in archives %>
       <li>
+        <span class="date"><%= entry.date %></span>
         <a href="<%= entry.path %>"><%= entry.title %></a>
       </li>
     <% end %>
