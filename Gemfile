@@ -6,3 +6,7 @@ gem "toto"
 gem "karakuri"
 gem "coderay"
 gem "rack-codehighlighter"
+
+group :development do
+  gem "thin"
+end
