@@ -5,14 +5,14 @@ html, body {
 body {
   margin: 0 auto;
   font-family: 'Baskerville', Georgia, Times, serif;
-  font-size: 95%;
+  font-size: 110%;
   line-height: 30px;
   min-width: 720px;
-  background:#f0f0d8 url(/images/agaelebe_backgrounsd.gif) repeat top;
+  background: #fff;
   color: #333;
 }
 header, footer, section, article {
-	display: block;
+  display: block;
 }
 section, #content {
   width: 720px;
