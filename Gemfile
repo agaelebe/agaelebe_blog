@@ -1,8 +1,8 @@
-source "http://rubygems.org" 
- 
+source "http://rubygems.org"
+
 gem "builder" 
-gem "rdiscount" 
-gem "toto"
+gem "rdiscount"
+gem "toto", :git => "git://github.com/agaelebe/toto.git"
 gem "karakuri"
 gem "coderay"
 gem "rack-codehighlighter"
