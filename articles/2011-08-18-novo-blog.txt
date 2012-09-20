@@ -5,3 +5,5 @@ tags: blog
 
 Nada aqui por enquanto.
 
+    :::ruby
+    puts "Hello world!"
