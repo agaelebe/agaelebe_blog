@@ -55,6 +55,7 @@ h1, h2, h3, h4 {
 }
 
 h1 a {
+  color: #333;
   text-decoration: none;
   border: none;
 }
@@ -66,11 +67,11 @@ h1 a:hover {
 
 h1 {
   color: #333;
-  letter-spacing: 0.12em;
-  word-spacing: 0.24em;
-  font-family: 'Lobster', Georgia, Times, serif;
-  font-size: 49px;
-  line-height: 65px;
+  letter-spacing: -0.06em;
+  word-spacing: 0.18em;
+  font-family: 'Sanchez', Georgia, Times, serif;
+  font-size: 48px;
+  line-height: 64px;
   text-shadow: rgba(0, 0, 0, 0.05) 0 3px 0;
 }
 
