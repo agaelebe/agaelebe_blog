@@ -4,13 +4,12 @@ html, body {
 }
 body {
   margin: 0 auto;
-  font-family: 'Baskerville', Georgia, Times, serif;
-  font-size: 110%;
-  line-height: 30px;
+  font: 400 18px/1.8 'Open Sans', Verdana, Helvetica, sans-serif;
   min-width: 720px;
-  background: #fff;
   color: #333;
+  background-color: #F2F2F0;
 }
+
 header, footer, section, article {
   display: block;
 }
@@ -31,12 +30,14 @@ section, #content {
 #path {
   color: #b53131;
 }
+
 .date {
   font-style: italic;
   float: right;
-  margin-right: 30px;
+  margin-right: 10px;
   color: #d8d8c0;
 }
+
 a {
   color: #df8615;
   text-decoration: none;
@@ -45,35 +46,38 @@ a {
   border-bottom-width: 1px;
   color: #f84600;
 }
+
+h1, h2, h3, h4 {
+  display: inline;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+}
+
 h1 a {
-  color: #f84600;
   text-decoration: none;
   border: none;
-  text-transform: uppercase;
 }
 
 h1 a:hover {
-  color: #f84600;
   border-bottom-style: dotted;
   border-bottom-width: 1px;
 }
 
 h1 {
-  color: #f84600;
-  font-size: 127.5%;
+  color: #333;
   letter-spacing: 0.12em;
-  word-spacing: 0.36em;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: 'Trebuchet MS', sans-serif;
-  text-shadow: rgba(0, 0, 0, 0.3) 0 1px 0;
+  word-spacing: 0.24em;
+  font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 49px;
+  line-height: 65px;
+  text-shadow: rgba(0, 0, 0, 0.05) 0 3px 0;
 }
 
 a:hover {
   text-decoration: none;
-  border-bottom-color:#f84600;
-  border-bottom-style:solid;
-  color: #f84600;
+  border-bottom-color: #f84600;
+  border-bottom-style: solid;
 }
 
 #logo {
@@ -81,12 +85,12 @@ a:hover {
 }
 
 body > header > h1 {
-	padding-left: 0;
+  padding-left: 0;
   margin: 0;
   font-weight: normal;
 }
 .post header {
-	margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .post .body p:first-child {
   margin-top: 0;
@@ -120,13 +124,8 @@ body > header {
   float: right;
   padding-top: 0px;
   margin-bottom: 10px;
+}
 
-}
-h1, h2, h3, h4 {
-  display: inline;
-  margin: 0;
-  font-weight: 600;
-}
 ul, li {
   list-style-type: square;
 }
@@ -157,7 +156,7 @@ body > footer {
   color: white;
   background: #7a8370;
   vertical-align: top;
-  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px;
+  text-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px;
 }
 
 footer a {
@@ -195,7 +194,7 @@ footer a:hover {
   border: 0;
 }
 
-.footer_container ul strong{
+.footer_container ul {
   padding-bottom: 2px;
   margin: 0;
   display: block;
@@ -236,3 +235,6 @@ footer a:hover {
   zoom: 1;
 }
 
+.comments {
+  margin-top: 48px;
+}
