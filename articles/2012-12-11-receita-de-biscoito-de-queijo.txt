@@ -1,11 +1,12 @@
 title: Receita de Biscoito de Queijo
 author: Hugo Lima Borges
 date: 2012/12/11
-tags: receita queijo
+tags: receita; queijo
 
 ![Biscoito de Queijo](/images/posts/biscoito-de-queijo-hlb.jpg)
 
-Essa é uma receita clássica de Minas. Uma variação do pão de queijo.
+Essa é uma receita clássica de Minas. Uma variação do pão de queijo que eu, particularmente,
+acho mais saboroso.
 
 Coma com moderação!
 
@@ -18,11 +19,11 @@ Coma com moderação!
 - 6 ou mais ovos;
 - sal a gosto.
 
-Aqui uma medida pode ser de um copo ou xícara.
+Aqui uma medida pode ser de um copo ou xícara de chá.
 
-## Modo de fazer
+## Modo de preparo
 
-Misturar todos ingredientes, amassar bem (massa nem muito mole, nem muito dura).
+Misturar todos os ingredientes, amassar bem (massa nem muito mole, nem muito dura).
 Se preciso for, para deixar a massa no ponto certo, acrescente mais um ovo.
 
 Enrolar os biscoitos com a mão untada com óleo, se preferir poderá passar no queijo ralado (como na foto!).
