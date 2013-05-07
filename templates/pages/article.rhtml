@@ -1,10 +1,11 @@
 <article class="post">
-  <header><h1><%= title %></h1>
-</header>
+  <header>
+    <h1><%= title %></h1>
+  </header>
   <section class="content">
     <%= body %>
+    <span class="date">publicado em <%= date %></span>
     <span class="twitter">Compartilhe esse artigo pelo &nbsp;<a target="_blank" href="http://twitter.com/home?status=<%= CGI::escape(title.to_s + " | agaelebe.com") %>+<%= Karakuri::short_url_bitly(permalink, 'agaelebe', 'R_7cc255c2f0c71857fef67d245368daa4') %>" alt="tweet isso">twitter</a></span>
-    <span class="date"><%= date %></span>
 </section>
 
   <section class="comments">
