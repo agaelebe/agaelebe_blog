@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "builder" 
+gem "builder"
 gem "rdiscount"
 gem "toto", :git => "git://github.com/agaelebe/toto.git"
 gem "karakuri"
